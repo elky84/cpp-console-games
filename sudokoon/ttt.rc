@@ -1,0 +1,455 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Korean resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)
+#ifdef _WIN32
+LANGUAGE LANG_KOREAN, SUBLANG_DEFAULT
+#pragma code_page(949)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 18, 1\r\n"
+    "#pragma code_page(949)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\ttt.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.kor\\afxres.rc""          // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\ttt.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  0, 0, 235, 55
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "ttt 정보"
+FONT 9, "굴림"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
+    LTEXT           "ttt 버전 1.0",IDC_STATIC,40,10,119,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) 2006",IDC_STATIC,40,25,119,8
+    DEFPUSHBUTTON   "확인",IDOK,178,7,50,14,WS_GROUP
+END
+
+IDD_TTT_DIALOG DIALOGEX 0, 0, 162, 269
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "SuDoKoon (Ver 0.2)"
+FONT 9, "굴림"
+BEGIN
+    EDITTEXT        IDC_EDIT1_1,14,17,10,12,ES_CENTER | ES_NUMBER | NOT 
+                    WS_BORDER,WS_EX_STATICEDGE
+    GROUPBOX        "",IDC_STATIC,7,7,148,175
+    PUSHBUTTON      "정답 보기",IDC_BUTTON_SOLVE,55,248,46,14
+    PUSHBUTTON      "새 게임",IDC_BUTTON_NEW,7,230,42,14
+    DEFPUSHBUTTON   "hidden",IDC_BUTTON_HIDDEN,108,181,44,11,NOT WS_VISIBLE
+    EDITTEXT        IDC_EDIT1_2,27,17,10,12,ES_CENTER | ES_NUMBER | NOT 
+                    WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_EDIT1_3,41,17,10,12,ES_CENTER | ES_NUMBER | NOT 
+                    WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_EDIT1_4,61,17,10,12,ES_CENTER | ES_NUMBER | NOT 
+                    WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_EDIT1_5,75,17,10,12,ES_CENTER | ES_NUMBER | NOT 
+                    WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_EDIT1_6,89,17,10,12,ES_CENTER | ES_NUMBER | NOT 
+                    WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_EDIT1_7,108,17,10,12,ES_CENTER | ES_NUMBER | NOT 
+                    WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_EDIT1_8,122,17,10,12,ES_CENTER | ES_NUMBER | NOT 
+                    WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_EDIT1_9,136,17,10,12,ES_CENTER | ES_NUMBER | NOT 
+                    WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_EDIT2_1,14,33,10,12,ES_CENTER | ES_NUMBER | NOT 
+                    WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_EDIT2_2,27,33,10,12,ES_CENTER | ES_NUMBER | NOT 
+                    WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_EDIT2_3,41,33,10,12,ES_CENTER | ES_NUMBER | NOT 
+                    WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_EDIT2_4,61,33,10,12,ES_CENTER | ES_NUMBER | NOT 
+                    WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_EDIT2_5,75,33,10,12,ES_CENTER | ES_NUMBER | NOT 
+                    WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_EDIT2_6,89,33,10,12,ES_CENTER | ES_NUMBER | NOT 
+                    WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_EDIT2_7,108,33,10,12,ES_CENTER | ES_NUMBER | NOT 
+                    WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_EDIT2_8,122,33,10,12,ES_CENTER | ES_NUMBER | NOT 
+                    WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_EDIT2_9,136,33,10,12,ES_CENTER | ES_NUMBER | NOT 
+                    WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_EDIT3_1,14,50,10,12,ES_CENTER | ES_NUMBER | NOT 
+                    WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_EDIT3_2,27,50,10,12,ES_CENTER | ES_NUMBER | NOT 
+                    WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_EDIT3_3,41,50,10,12,ES_CENTER | ES_NUMBER | NOT 
+                    WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_EDIT3_4,61,50,10,12,ES_CENTER | ES_NUMBER | NOT 
+                    WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_EDIT3_5,75,50,10,12,ES_CENTER | ES_NUMBER | NOT 
+                    WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_EDIT3_6,89,50,10,12,ES_CENTER | ES_NUMBER | NOT 
+                    WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_EDIT3_7,108,50,10,12,ES_CENTER | ES_NUMBER | NOT 
+                    WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_EDIT3_8,122,50,10,12,ES_CENTER | ES_NUMBER | NOT 
+                    WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_EDIT3_9,136,50,10,12,ES_CENTER | ES_NUMBER | NOT 
+                    WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_EDIT4_1,14,71,10,12,ES_CENTER | ES_NUMBER | NOT 
+                    WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_EDIT4_2,27,71,10,12,ES_CENTER | ES_NUMBER | NOT 
+                    WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_EDIT4_3,41,71,10,12,ES_CENTER | ES_NUMBER | NOT 
+                    WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_EDIT4_4,61,71,10,12,ES_CENTER | ES_NUMBER | NOT 
+                    WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_EDIT4_5,75,71,10,12,ES_CENTER | ES_NUMBER | NOT 
+                    WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_EDIT4_6,89,71,10,12,ES_CENTER | ES_NUMBER | NOT 
+                    WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_EDIT4_7,108,71,10,12,ES_CENTER | ES_NUMBER | NOT 
+                    WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_EDIT4_8,122,71,10,12,ES_CENTER | ES_NUMBER | NOT 
+                    WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_EDIT4_9,136,71,10,12,ES_CENTER | ES_NUMBER | NOT 
+                    WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_EDIT5_1,14,88,10,12,ES_CENTER | ES_NUMBER | NOT 
+                    WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_EDIT5_2,27,88,10,12,ES_CENTER | ES_NUMBER | NOT 
+                    WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_EDIT5_3,41,88,10,12,ES_CENTER | ES_NUMBER | NOT 
+                    WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_EDIT5_4,61,88,10,12,ES_CENTER | ES_NUMBER | NOT 
+                    WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_EDIT5_5,75,88,10,12,ES_CENTER | ES_NUMBER | NOT 
+                    WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_EDIT5_6,89,88,10,12,ES_CENTER | ES_NUMBER | NOT 
+                    WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_EDIT5_7,108,88,10,12,ES_CENTER | ES_NUMBER | NOT 
+                    WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_EDIT5_8,122,88,10,12,ES_CENTER | ES_NUMBER | NOT 
+                    WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_EDIT5_9,136,88,10,12,ES_CENTER | ES_NUMBER | NOT 
+                    WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_EDIT6_1,14,105,10,12,ES_CENTER | ES_NUMBER | NOT 
+                    WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_EDIT6_2,27,105,10,12,ES_CENTER | ES_NUMBER | NOT 
+                    WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_EDIT6_3,41,105,10,12,ES_CENTER | ES_NUMBER | NOT 
+                    WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_EDIT6_4,61,105,10,12,ES_CENTER | ES_NUMBER | NOT 
+                    WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_EDIT6_5,75,105,10,12,ES_CENTER | ES_NUMBER | NOT 
+                    WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_EDIT6_6,89,105,10,12,ES_CENTER | ES_NUMBER | NOT 
+                    WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_EDIT6_7,108,105,10,12,ES_CENTER | ES_NUMBER | NOT 
+                    WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_EDIT6_8,122,105,10,12,ES_CENTER | ES_NUMBER | NOT 
+                    WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_EDIT6_9,136,105,10,12,ES_CENTER | ES_NUMBER | NOT 
+                    WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_EDIT7_1,14,127,10,12,ES_CENTER | ES_NUMBER | NOT 
+                    WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_EDIT7_2,27,127,10,12,ES_CENTER | ES_NUMBER | NOT 
+                    WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_EDIT7_3,41,127,10,12,ES_CENTER | ES_NUMBER | NOT 
+                    WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_EDIT7_4,61,127,10,12,ES_CENTER | ES_NUMBER | NOT 
+                    WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_EDIT7_5,75,127,10,12,ES_CENTER | ES_NUMBER | NOT 
+                    WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_EDIT7_6,89,127,10,12,ES_CENTER | ES_NUMBER | NOT 
+                    WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_EDIT7_7,108,127,10,12,ES_CENTER | ES_NUMBER | NOT 
+                    WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_EDIT7_8,122,127,10,12,ES_CENTER | ES_NUMBER | NOT 
+                    WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_EDIT7_9,136,127,10,12,ES_CENTER | ES_NUMBER | NOT 
+                    WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_EDIT8_1,14,145,10,12,ES_CENTER | ES_NUMBER | NOT 
+                    WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_EDIT8_2,27,145,10,12,ES_CENTER | ES_NUMBER | NOT 
+                    WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_EDIT8_3,41,145,10,12,ES_CENTER | ES_NUMBER | NOT 
+                    WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_EDIT8_4,61,145,10,12,ES_CENTER | ES_NUMBER | NOT 
+                    WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_EDIT8_5,75,145,10,12,ES_CENTER | ES_NUMBER | NOT 
+                    WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_EDIT8_6,89,145,10,12,ES_CENTER | ES_NUMBER | NOT 
+                    WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_EDIT8_7,108,145,10,12,ES_CENTER | ES_NUMBER | NOT 
+                    WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_EDIT8_8,122,145,10,12,ES_CENTER | ES_NUMBER | NOT 
+                    WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_EDIT8_9,136,145,10,12,ES_CENTER | ES_NUMBER | NOT 
+                    WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_EDIT9_1,14,162,10,12,ES_CENTER | ES_NUMBER | NOT 
+                    WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_EDIT9_2,27,162,10,12,ES_CENTER | ES_NUMBER | NOT 
+                    WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_EDIT9_3,41,162,10,12,ES_CENTER | ES_NUMBER | NOT 
+                    WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_EDIT9_4,61,162,10,12,ES_CENTER | ES_NUMBER | NOT 
+                    WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_EDIT9_5,75,162,10,12,ES_CENTER | ES_NUMBER | NOT 
+                    WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_EDIT9_6,89,162,10,12,ES_CENTER | ES_NUMBER | NOT 
+                    WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_EDIT9_7,108,162,10,12,ES_CENTER | ES_NUMBER | NOT 
+                    WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_EDIT9_8,122,162,10,12,ES_CENTER | ES_NUMBER | NOT 
+                    WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_EDIT9_9,136,162,10,12,ES_CENTER | ES_NUMBER | NOT 
+                    WS_BORDER,WS_EX_STATICEDGE
+    GROUPBOX        "남은갯수",IDC_STATIC,7,187,148,39
+    LTEXT           "1:",IDC_STATIC,13,199,8,8
+    LTEXT           "2:",IDC_STATIC,41,199,8,8
+    LTEXT           "3:",IDC_STATIC,67,199,8,8
+    LTEXT           "4:",IDC_STATIC,94,199,8,8
+    LTEXT           "5:",IDC_STATIC,123,199,8,8
+    LTEXT           "6:",IDC_STATIC,13,212,8,8
+    LTEXT           "7:",IDC_STATIC,40,212,8,8
+    LTEXT           "8:",IDC_STATIC,67,212,8,8
+    LTEXT           "9:",IDC_STATIC,94,212,8,8
+    EDITTEXT        IDC_EDIT_REM_1,21,197,12,12,ES_CENTER | ES_READONLY | 
+                    ES_NUMBER
+    EDITTEXT        IDC_EDIT_REM_2,48,197,12,12,ES_CENTER | ES_READONLY | 
+                    ES_NUMBER
+    EDITTEXT        IDC_EDIT_REM_3,75,197,12,12,ES_CENTER | ES_READONLY | 
+                    ES_NUMBER
+    EDITTEXT        IDC_EDIT_REM_4,101,197,12,12,ES_CENTER | ES_READONLY | 
+                    ES_NUMBER
+    EDITTEXT        IDC_EDIT_REM_5,131,197,12,12,ES_CENTER | ES_READONLY | 
+                    ES_NUMBER
+    EDITTEXT        IDC_EDIT_REM_6,21,210,12,12,ES_CENTER | ES_READONLY | 
+                    ES_NUMBER
+    EDITTEXT        IDC_EDIT_REM_7,48,210,12,12,ES_CENTER | ES_READONLY | 
+                    ES_NUMBER
+    EDITTEXT        IDC_EDIT_REM_8,75,210,12,12,ES_CENTER | ES_READONLY | 
+                    ES_NUMBER
+    EDITTEXT        IDC_EDIT_REM_9,101,210,12,12,ES_CENTER | ES_READONLY | 
+                    ES_NUMBER
+    PUSHBUTTON      "편집",IDC_BUTTON_EDIT,54,230,47,14
+    PUSHBUTTON      "시작",IDC_BUTTON_START,106,230,49,14
+    PUSHBUTTON      "정답 체크",IDC_BUTTON_CHECK,7,247,42,14
+    CTEXT           "SudoKoon Ver 0.2",IDC_STATIC_TITLE1,39,70,81,48,
+                    SS_SUNKEN
+    LTEXT           "Made by  Jae-Dong",IDC_STATIC_TITLE2,46,89,66,8
+    PUSHBUTTON      "온라인",IDC_BUTTON_ONLINE,107,248,48,14
+    LTEXT           "http://sudokoon.wo.to",IDC_STATIC_TITLE3,43,105,73,8
+END
+
+IDD_DIALOG_NEWGAME DIALOG DISCARDABLE  0, 0, 56, 80
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION
+CAPTION "새 게임"
+FONT 10, "System"
+BEGIN
+    DEFPUSHBUTTON   "확인",IDOK,4,61,21,14
+    PUSHBUTTON      "취소",IDCANCEL,29,61,21,14
+    GROUPBOX        "난이도",IDC_STATIC,4,4,48,54,WS_GROUP
+    CONTROL         "초급",IDC_RADIO1,"Button",BS_AUTORADIOBUTTON | WS_GROUP,
+                    11,17,28,8
+    CONTROL         "중급",IDC_RADIO2,"Button",BS_AUTORADIOBUTTON,11,29,31,8
+    CONTROL         "상급",IDC_RADIO3,"Button",BS_AUTORADIOBUTTON,11,42,30,8
+END
+
+IDD_DIALOG_ONLINE DIALOG DISCARDABLE  0, 0, 175, 75
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Online"
+FONT 10, "System"
+BEGIN
+    LTEXT           "난이도 설정",IDC_STATIC,7,7,43,8
+    PUSHBUTTON      "다운 받기",IDC_BUTTON_ONLINE_DOWNLOAD,128,32,39,14
+    EDITTEXT        IDC_EDIT_ONLINE_STATUS,7,32,113,35,ES_MULTILINE | 
+                    ES_AUTOHSCROLL | WS_VSCROLL
+    CONTROL         "초급",IDC_ONLINE_RADIO1,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,11,20,32,10
+    CONTROL         "중급",IDC_ONLINE_RADIO2,"Button",BS_AUTORADIOBUTTON,49,
+                    20,32,10
+    CONTROL         "상급",IDC_ONLINE_RADIO3,"Button",BS_AUTORADIOBUTTON,89,
+                    20,32,10
+    CONTROL         "극악",IDC_ONLINE_RADIO4,"Button",BS_AUTORADIOBUTTON,132,
+                    20,32,10
+    PUSHBUTTON      "닫기",IDOK,128,50,40,13
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "041204B0"
+        BEGIN
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "ttt MFC 응용 프로그램\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "ttt\0"
+            VALUE "LegalCopyright", "Copyright (C) 2006\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "ttt.EXE\0"
+            VALUE "ProductName", "ttt 응용 프로그램\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x412, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 48
+    END
+
+    IDD_TTT_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 155
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 262
+    END
+
+    IDD_DIALOG_NEWGAME, DIALOG
+    BEGIN
+        LEFTMARGIN, 4
+        RIGHTMARGIN, 52
+        TOPMARGIN, 4
+        BOTTOMMARGIN, 75
+    END
+
+    IDD_DIALOG_ONLINE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 168
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 68
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_ABOUTBOX            "ttt 정보(&A)..."
+    CG_IDS_SOCKETS_INIT_FAILED "Windows sockets initialization failed."
+END
+
+#endif    // Korean resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)
+#ifdef _WIN32
+LANGUAGE 18, 1
+#pragma code_page(949)
+#endif //_WIN32
+#include "res\ttt.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.kor\afxres.rc"          // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
