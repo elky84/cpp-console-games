@@ -1,5 +1,5 @@
 [![Website](https://img.shields.io/website-up-down-green-red/http/shields.io.svg?label=elky-essay)](https://elky84.github.io)
-<img src="https://img.shields.io/badge/made%20with-JavaScript-brightgreen.svg" alt="made with JavaScript">
+![Made with](https://img.shields.io/badge/made%20with-C++-yellowgreen.svg)
 
 ![GitHub forks](https://img.shields.io/github/forks/elky84/cpp-console-games.svg?style=social&label=Fork)
 ![GitHub stars](https://img.shields.io/github/stars/elky84/cpp-console-games.svg?style=social&label=Stars)
